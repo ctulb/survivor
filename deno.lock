@@ -90,6 +90,7 @@
     "https://deno.land/x/hono@v4.3.4/utils/types.ts": "050bfa9dc6d0cc4b7c5069944a8bd60066c2f9f95ee69833623ad104f11f92bf",
     "https://deno.land/x/hono@v4.3.4/utils/url.ts": "855169632c61d03703bd08cafb27664ba3fdb352892f01687d5cce8fd49e3cb1",
     "https://deno.land/x/hono@v4.3.4/validator/index.ts": "6c986e8b91dcf857ecc8164a506ae8eea8665792a4ff7215471df669c632ae7c",
-    "https://deno.land/x/hono@v4.3.4/validator/validator.ts": "53f3d2ad442e22f0bc2d85b7d8d90320d4e5ecf5fdd58882f906055d33a18e13"
+    "https://deno.land/x/hono@v4.3.4/validator/validator.ts": "53f3d2ad442e22f0bc2d85b7d8d90320d4e5ecf5fdd58882f906055d33a18e13",
+    "https://deno.land/x/minivan@0.5.6/src/van-plate.js": "a5b2e60c7fd1e0397d797cd78e2db3fdec3271db598a11805123de1a1f7d7922"
   }
 }
