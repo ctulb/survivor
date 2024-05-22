@@ -1,3 +1,4 @@
+import { assert } from "https://deno.land/std@0.224.0/assert/assert.ts";
 import { app } from "../main.ts";
 import {
   assertEquals,
@@ -42,4 +43,14 @@ Deno.test("login endpoint GET", async (t) => {
       assertStringIncludes(content, 'button type="submit"');
     },
   );
+});
+
+Deno.test("login endpoint POST", async (t) => {
+  await t.step("exists", async () => {
+    const res = await app.request("/login", {
+      method: "POST",
+    });
+
+    assertEquals(res.status, 200);
+  });
 });
