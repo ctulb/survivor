@@ -43,3 +43,7 @@ login.get("/", (c) =>
       ),
     ),
   ));
+
+login.post("/", (c) => {
+  return c.html("ok");
+});
